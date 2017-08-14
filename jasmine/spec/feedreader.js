@@ -132,7 +132,7 @@
                 var currText = $('.entry').html().split('<h2>')[1].split('</h2>')[0];
                 expect(prevText === currText).toBe(false);
                 done();
-            })
+            });
             
         });
 
